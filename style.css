@@ -1,0 +1,75 @@
+body {
+ 
+    background-image:url(" https://dl.dropbox.com/s/6pw0xg6bf7v9vgf/images%20%2866%29.jpeg?dl=0");
+    background-repeat:no-repeat ;
+ background-position: center;
+       background-color:lavender;
+       height: 100%;
+      backdrop-filter: blur(8px); 
+ 
+    
+ }
+ #readit{
+     background-size:cover;
+     color:Blue;
+     text-align:center;
+     font-size:25px;
+ }
+ h1{
+     color:Blue;
+     text-align:center;
+ }
+ #round{
+ color:Blue;
+ padding:20px;
+ font-size:15px;
+ text-align:center ;
+ outline: none;
+ border: none;
+ }
+ 
+ label{
+     color:blue;
+     font-size:30px;
+     text-align:center;
+ }
+ p{
+ color:Navy;
+ text-align:center;
+ 
+ }
+
+ #btn,#Btnclick{
+   color: white;
+   background-color: blue;
+   height: 40px;
+ }
+
+
+ #fight{
+    margin-left: 450px;
+ }
+
+ #clearer{
+    margin-left: 650px;
+    margin-top: 40px;
+ }
+
+
+ @media screen and (max-width:416px) {
+    #fight{
+        position:relative;
+        right: 290px;
+     }
+     #clearer{
+        position: relative;
+        right:480px;
+     }
+
+     #btn{
+        margin-top: 20px;
+
+     }
+    
+ }
+ 
