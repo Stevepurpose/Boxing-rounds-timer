@@ -1,14 +1,24 @@
 body {
- 
-    background-image:url(" https://dl.dropbox.com/s/6pw0xg6bf7v9vgf/images%20%2866%29.jpeg?dl=0");
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+    background-image:url("./pics/Boxpic.png ");
     background-repeat:no-repeat ;
  background-position: center;
        background-color:lavender;
        height: 100%;
-      backdrop-filter: blur(8px); 
- 
-    
+      backdrop-filter: blur(25px); 
+      width: 100%;
+      
  }
+ img{
+   margin: auto;
+   height: 200px;
+   width: 200px;
+   margin-left: 560px;
+   margin-top: 10px;
+ }
+
  #readit{
      background-size:cover;
      color:Blue;
@@ -36,22 +46,40 @@ body {
  p{
  color:Navy;
  text-align:center;
+ font-size: larger;
+ font-weight: bolder;
  
  }
 
- #btn,#Btnclick{
+
+ #for-image{
+   margin: auto;
+   
+ }
+
+ #btn{
    color: white;
    background-color: blue;
    height: 40px;
+   margin-left: 570px;
+ }
+
+ #Btnclick{
+   color: white;
+   background-color: blue;
+   height: 40px;
+   margin-left: 20px;
  }
 
 
  #fight{
-    margin-left: 450px;
+   text-align: center;
+    
  }
 
- #clearer{
-    margin-left: 650px;
+ .clickers{
+   display: flex;
+    align-content: center;
     margin-top: 40px;
  }
 
@@ -59,17 +87,27 @@ body {
  @media screen and (max-width:416px) {
     #fight{
         position:relative;
-        right: 290px;
+        right: 30px;
      }
-     #clearer{
+     .clickers{
         position: relative;
         right:480px;
      }
 
-     #btn{
-        margin-top: 20px;
-
+     #for-image{
+      border: 2px purple;
+   
      }
+
+     img{
+      
+      height: 150px;
+      width: 200px;
+      margin-left: 60px;
+      
+    }
+      
+     
     
  }
  
